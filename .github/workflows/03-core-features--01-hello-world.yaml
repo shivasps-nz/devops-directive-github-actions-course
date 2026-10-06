@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+      - run: echo "$date"
+      - run: sleep 10
